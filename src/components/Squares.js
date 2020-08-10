@@ -52,10 +52,6 @@ export default function Squares() {
     }
   };
 
-  useEffect(() => {
-    console.log(activeSquare)
-  }, [activeSquare])
-
   return (
     <div className='widget-squares container'>
       <h2>Squares</h2>
